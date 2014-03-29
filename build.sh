@@ -9,7 +9,7 @@ set_gemfile(){
 }
 
 # Target postgres. Override with: `DB=sqlite bash build.sh`
-export DB=${DB:-postgres}
+export DB=${DB:-mysql}
 
 # Spree defaults
 echo "Setup Spree defaults and creating test application..."
